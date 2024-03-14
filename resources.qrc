@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="img">
+    <file>img/icons8-binance-64.png</file>
+    <file>img/icons8-reboot-50.png</file>
+    <file>img/icons8-bitcoin.svg</file>
+    <file>img/icons8-bitcoin-500.png</file>
+    <file>img/icons8-doc-96.png</file>
+    <file>img/icons8-ethereum.svg</file>
+    <file>img/icons8-tether.svg</file>
+    <file>img/icons8-wallet-96.png</file>
+    <file>img/logo.jpeg</file>
+    <file>img/logo.png</file>
+    <file>img/USDT.ico</file>
+  </qresource>
+</RCC>

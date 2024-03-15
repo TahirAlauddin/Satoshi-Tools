@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>881</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Satoshi All Flasher - Welcome</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/img/img/icons8-bitcoin-500.png</normaloff>:/img/img/icons8-bitcoin-500.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">* {
+background: #011526;
+color: #F2F0D8; 
+font: 9pt &quot;Arial Rounded MT Bold&quot;;
+}
+
+
+
+QPushButton{
+	border-style: solid;
+	border-color: #050a0e;
+	border-width: 1px;
+	border-radius: 5px;
+	color: #d3dae3;
+	padding: 5px 15px;
+	background-color: #100E19;
+background: #1E3340
+}
+QPushButton::hover{
+	border-style: solid;
+	border-color: #050a0e;
+	border-width: 1px;
+	border-radius: 5px;
+	color: #FFFFFF;
+	padding: 2px;
+	background-color: #151a1e;
+}
+
+QLineEdit {
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: 1px solid #1E3340;
+	background-color: #010626
+}</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="leftMargin">
+     <number>50</number>
+    </property>
+    <property name="topMargin">
+     <number>50</number>
+    </property>
+    <property name="rightMargin">
+     <number>50</number>
+    </property>
+    <property name="bottomMargin">
+     <number>50</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">#frame {
+border-radius: 10px;
+border: 1px solid #F2F0D8;
+}
+QFrame {
+border: none;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QFrame" name="frame_5">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QPushButton" name="pushButton_4">
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>50</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(':/img/img/logo.jpeg')</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_3">
+            <property name="styleSheet">
+             <string notr="true">font: 18pt &quot;Times New Roman&quot;;
+color: rgb(99, 99, 99);</string>
+            </property>
+            <property name="text">
+             <string>Satooshi Tools</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_2">
+         <property name="styleSheet">
+          <string notr="true">margin-left: 100px;</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="styleSheet">
+             <string notr="true">color: rgb(47, 50, 255);
+color: #F2F0D8;
+font: 8pt &quot;Arial Rounded MT Bold&quot;;
+font-size: 25px;
+</string>
+            </property>
+            <property name="text">
+             <string>SATOOSHI TOOLS ALL FLASHER</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_3">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 8, 45);
+font: 8pt &quot;Arial Rounded MT Bold&quot;;
+font-size: 18px;
+
+margin-left: 100px;
+margin-bottom: 20px</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>This software hasn't been activated yet.
+Please buy wallet licence only from www.satoshitools.com.
+Every licence is locked on computer MAC address and
+IP cannot be used in another computer. This protects
+our users from sacmmers.</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="Line" name="line">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(47, 130, 255);
+margin-left: 215px;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_4">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <property name="spacing">
+           <number>15</number>
+          </property>
+          <property name="topMargin">
+           <number>20</number>
+          </property>
+          <item>
+           <widget class="QPushButton" name="buyLicenseBtn">
+            <property name="styleSheet">
+             <string notr="true">color: #8C711F;
+font: 8pt &quot;Arial Rounded MT Bold&quot;;
+font-size: 18px;
+border: 1px solid black;
+padding: 10px 5px;
+border-radius: 10px;</string>
+            </property>
+            <property name="text">
+             <string>Buy License Now</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="haveLicenseBtn">
+            <property name="styleSheet">
+             <string notr="true">color: #8C711F;
+font: 8pt &quot;Arial Rounded MT Bold&quot;;
+font-size: 18px;
+
+border: 1px solid black;
+padding: 10px 5px;
+border-radius: 10px;</string>
+            </property>
+            <property name="text">
+             <string>I have License</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="openSoftwareBtn">
+            <property name="styleSheet">
+             <string notr="true">color: #8C711F;
+font: 8pt &quot;Arial Rounded MT Bold&quot;;
+font-size: 18px;
+
+border: 1px solid black;
+padding: 10px 5px;
+border-radius: 10px;</string>
+            </property>
+            <property name="text">
+             <string>Open Software</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
